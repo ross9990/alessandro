@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lag="Pt-br">
+
+<head>
+
+
+	<meta charset="UTF8">
+	<body style="background-color: lightblue;">
+		<style>
+			body, html {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+.fullscreen-img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.fullscreen-img img{
+	opacity: 0.07;
+}
+
+.titulo {
+
+	padding-left: 820px;
+}
+.texto {
+	text-align: justify-all;
+
+}
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ed5a0e;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+		</style>
+</head>
+
+<body>
+
+
+	<div class="fullscreen-img">
+		<img src="img/senac1.png" alt="senac1" style="width: 100%;height: auto;">
+	</div>
+
+<div class="titulo">
+<h1>Alessandro Daniel Ross</h1>
+</div>
+
+<div class="texto">
+
+<ul><li><b>Declaração de variáveis em C++:</b> É muito simples: basta escrever o tipo da variável, seguido do nome que se lhe deseja dar, e então finalizar a instrução com um ponto-e-vírgula (;).<br>
+Os nomes das variáveis em C++ seguem regras muito simples. A primeira delas é a seguinte: (1) apenas são aceitos nos nomes de variáveis letras, números e o símbolo _ (underscore);<br> a segunda diz que (2) nomes de variáveis devem começar com letras ou _, e não com dígitos; por fim, a última regra é que (3) nomes que diferem entre si apenas por terem letras <br>minúsculas ou maiúsculas em posições correspondentes são considerados como nomes diferentes, e, portanto nomeiam variáveis diferentes (essa definição é condensada a expressão<br> case-sensitive, em inglês). Essas regras ficarão mais claras observando os exemplos abaixo. Neles pus comentários indicando qual das regras (1, 2 ou 3) foi desrespeitada ou é <br>relevante em cada uma das declarações.</ul></li>
+
+<ul><li><b>Tipos de Dados em C++:</b> Tem basicamente 6 tipos de dados primitivos, a saber: char, int, float, double, wchar_t e bool. São, respectivamente, os tipos: caractere (ASCII), inteiro<br>, ponto flutuante de precisão simples, ponto flutuante de dupla precisão, caractere (UTF-16) e lógico ou booleano.
+A partir desses tipos de dados, podemos "formar" outros tipos que <br>serão denominados compostos. O tipo char, por exemplo, pode ser utilizado para criar strings de caracteres e mais adiante nesta seção analizaresmos também os tipos, vetores, matrizes, strings e structs. </ul></li>
+
+<ul><li><b>Operador em C++:</b> é uma linguagem rica em operadores.Operadores podem ser combinados para formar
+expressões. Ela define quatro classes de operadores, Aritmético, Relacionais, Lógicos, Bit a bit.<br>Além disso, C tem alguns operadores especiais para tarefas
+particulares.</ul></li>
+
+<ul><li><b>Loops:</b> Laços (loops em inglês), ou estruturas de repetição, são comandos existentes nas linguagens de programação destinados a executar uma ou mais instruções quantas vezes forem necessárias.</ul></li>
+
+<ul><li><b>Funções:</b> Um bloco de código que executa alguma operação. Opcionalmente, uma função pode definir parâmetros de entrada que permitem que os chamadores passem argumentos para a função.<br> Uma função também pode retornar um valor como saída. É como se cada função fosse uma pecinha de lego. Você vai juntando as peças e vai montando coisas grandes e bacanas.As funções em<br> C++ possuem 4 elementos que as definem, Retorno da função, Nome da função, Parâmetros de entrada e Corpo da função.</ul></li>
+
+
+<ul><li><b>Estruturas iniciais:</b> Possui estruturas, também conhecidas como structs. As structs são uma forma de definir uma estrutura de dados personalizada, que pode conter vários tipos de variáveis <br>agrupadas em uma única unidade.Lembre-se de que as structs são uma maneira poderosa de organizar dados personalizados em C++.<i> Programas C++ tem a seguinte estrutura geral:<br>
+#include < iostream ><br>
+using namespace std;<br>
+definição de constantes<br>
+funções<br>
+int main()<br>
+{<br>
+declaração de variáveis<br>
+....<br>
+sentenças<br>
+....<br>
+}</i>
+
+</ul></li>
+
+<ul><li><b>Estruturas Funcionais:</b> Aprender estrutura de dados em C++ passo a passo é essencial para todo programador que deseja se aprofundar nessa área. Para começar, é importante entender os <br>conceitos básicos das estruturas de dados, como a diferença entre tipos de dados primitivos e estruturados, e como eles são armazenados na memória. Em seguida, é fundamental conhecer as <br>principais estruturas de dados, como listas, pilhas e filas, e como implementá-las em C++.Existem diversas estruturas de dados em C++ que são fundamentais para todo programador. Cada <br>uma delas possui características e aplicações específicas, sendo importante conhecer suas funcionalidades para escolher a mais adequada para cada situação.</ul></li>
+	<ol>
+	  <li>Listas:</li>
+
+    As listas são estruturas de dados que armazenam elementos em uma sequência. Em C++, existem diferentes tipos de listas, como listas encadeadas, listas duplamente encadeadas<br> e listas circulares. Elas permitem a inserção e remoção de elementos de forma eficiente, além de possibilitar o acesso aos elementos por meio de iterações.
+    <li>Pilhas:</li>
+
+    Uma pilha é uma estrutura de dados em que o último elemento inserido é o primeiro a ser removido (Last-In, First-Out – LIFO). Ela é especialmente útil em situações em que é <br>necessário realizar operações em ordem inversa, como desfazer operações ou percorrer uma árvore em profundidade.
+   <li> Filas:</li>
+
+    As filas, por sua vez, funcionam de forma oposta às pilhas, seguindo o princípio de First-In, First-Out (FIFO). O primeiro elemento inserido é o primeiro a ser removido. <br>Elas são úteis em situações em que a ordem de processamento é importante, como o agendamento de tarefas.
+    <li>Árvores:</li>
+
+    As árvores são estruturas de dados hierárquicas muito utilizadas em C++. Existem diversos tipos de árvores, como árvores binárias, árvores de busca binária e árvores balanceadas.<br> Elas são amplamente utilizadas para representar hierarquias, organizar dados em bancos de dados e implementar algoritmos de busca eficientes.
+    <li>Grafos:</li>
+
+    Os grafos são estruturas de dados que representam relações entre elementos. Eles são compostos por vértices e arestas, onde as arestas representam as conexões entre<br> os vértices. Os grafos são utilizados em diversas áreas, como redes sociais, roteamento de redes e algoritmos de busca.
+
+Essas são apenas algumas das principais estruturas de dados em C++
+</ol>
+
+
+<ul><li><b>Estruturas de Finalização:</b> Não existe uma estrutura específica chamada “estruturas de finalização”. No entanto, vou abordar algumas estruturas de controle relevantes que podem estar <br>relacionadas ao término ou finalização de programas:</ul></li><ol>
+	<li>Estruturas de Decisão (Seleção):</li>
+As estruturas de decisão permitem que o programa tome diferentes caminhos com base em condições.
+<li>Estruturas de Repetição:</li>
+Essas estruturas permitem que um bloco de código seja executado repetidamente enquanto uma condição for atendida.
+<li>Outras Considerações:</li>
+O término de um programa geralmente ocorre quando a função main chega ao final ou quando um comando específico (como return 0;) é executado.
+Além disso, o uso de exceções<br> e gerenciamento de recursos (como fechar arquivos ou liberar memória) também está relacionado à finalização adequada de programas.
+</ol>
+
+<div class="footer">
+<footer>
+<b> Agradecimentos:</b> Professor Gilson Tiago Terada.
+  <p>SENAC-APUCARANA/PR 2024 </p>
+</footer>
+ </div>
+
+</body>
